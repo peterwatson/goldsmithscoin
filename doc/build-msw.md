@@ -84,6 +84,6 @@ Goldmsithscoin
 -------
 DOS prompt:
 
-	cd \litecoin\src
+	cd \goldmsithscoin\src
 	mingw32-make -f makefile.mingw
-	strip litecoind.exe
+	strip goldmsithscoind.exe

@@ -4544,7 +4544,7 @@ void static GoldmsithscoinMiner(CWallet *pwallet)
 {
     printf("GoldmsithscoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("litecoin-miner");
+    RenameThread("goldmsithscoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

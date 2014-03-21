@@ -276,8 +276,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Goldmsithscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Το Goldmsithscoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα litecoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
+        <source>Goldmsithscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your goldmsithscoins from being stolen by malware infecting your computer.</source>
+        <translation>Το Goldmsithscoin θα κλεισει τώρα για να τελειώσει την διαδικασία κρυπτογραφησης. Θυμησου ότι κρυπτογραφώντας το πορτοφολι σου δεν μπορείς να προστατέψεις πλήρως τα goldmsithscoins σου από κλοπή στην περίπτωση όπου μολυνθεί ο υπολογιστής σου με κακόβουλο λογισμικο.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -421,7 +421,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a Goldmsithscoin address</source>
-        <translation>Στείλε νομισματα σε μια διεύθυνση litecoin</translation>
+        <translation>Στείλε νομισματα σε μια διεύθυνση goldmsithscoin</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -760,7 +760,7 @@ Address: %4
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Goldmsithscoin-Qt</source>
-        <translation>litecoin-qt</translation>
+        <translation>goldmsithscoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1072,7 +1072,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start goldmsithscoin: click-to-pay handler</source>
         <translation>Δεν είναι δυνατή η εκκίνηση του Goldmsithscoin: click-to-pay handler</translation>
     </message>
 </context>
@@ -2200,8 +2200,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο litecoind</translation>
+        <source>Send command to -server or goldmsithscoind</source>
+        <translation>Αποστολή εντολής στον εξυπηρετητή ή στο goldmsithscoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2220,13 +2220,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
-        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: litecoin.conf)</translation>
+        <source>Specify configuration file (default: goldmsithscoin.conf)</source>
+        <translation>Ορίστε αρχείο ρυθμίσεων (προεπιλογή: goldmsithscoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Ορίστε αρχείο pid (προεπιλογή: litecoind.pid)</translation>
+        <source>Specify pid file (default: goldmsithscoind.pid)</source>
+        <translation>Ορίστε αρχείο pid (προεπιλογή: goldmsithscoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2303,7 +2303,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=litecoinrpc
+rpcuser=goldmsithscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2314,7 +2314,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Goldmsithscoin Alert&quot; adm
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=litecoinrpc
+rpcuser=goldmsithscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

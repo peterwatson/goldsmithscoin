@@ -4,6 +4,6 @@ See doc/readme-qt.rst for instructions on building Goldmsithscoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
 implementation of Goldmsithscoin.
 
-See doc/build-*.txt for instructions on building litecoind,
+See doc/build-*.txt for instructions on building goldmsithscoind,
 the intended-for-services, no-graphical-interface, reference
 implementation of Goldmsithscoin.

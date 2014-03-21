@@ -25,12 +25,12 @@ You need the Qt4 run-time libraries to run Goldmsithscoin-Qt. On Debian or Ubunt
 
 Unpack the files into a directory and run:
 
-- bin/32/litecoin-qt (GUI, 32-bit)
-- bin/32/litecoind (headless, 32-bit)
-- bin/64/litecoin-qt (GUI, 64-bit)
-- bin/64/litecoind (headless, 64-bit)
+- bin/32/goldmsithscoin-qt (GUI, 32-bit)
+- bin/32/goldmsithscoind (headless, 32-bit)
+- bin/64/goldmsithscoin-qt (GUI, 64-bit)
+- bin/64/goldmsithscoind (headless, 64-bit)
 
-See the documentation at the [Goldmsithscoin Wiki](http://litecoin.info)
+See the documentation at the [Goldmsithscoin Wiki](http://goldmsithscoin.info)
 for help and more information.
 
 
