@@ -1185,24 +1185,26 @@ void MapPort(bool)
 
 
 
-
+// VPS setup at vps.cheapvps.net
+// Domain and subdomains point to ip addresses on the vps
+// This should enable seed nodes (first node)
 
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
+
 static const char *strMainNetDNSSeed[][2] = {
-    {"goldmsithscointools.com", "dnsseed.goldmsithscointools.com"},
-    {"goldmsithscoinpool.org", "dnsseed.goldmsithscoinpool.org"},
-    {"xurious.com", "dnsseed.ltc.xurious.com"},
-    {"koin-project.com", "dnsseed.koin-project.com"},
-    {"weminemnc.com", "dnsseed.weminemnc.com"},
+    {"goldsmithscoin.org", "seed1.goldsmithscoin.org"},
+    {"goldsmithscoin.org", "seed2.goldsmithscoin.org"},
+    {"", ""},
+   
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"goldmsithscointools.com", "testnet-seed.goldmsithscointools.com"},
-    {"weminemnc.com", "testnet-seed.weminemnc.com"},
+    {"goldsmithscoin.org", "testnet.goldsmithscoin.org"},
+    
     {NULL, NULL}
 };
 
