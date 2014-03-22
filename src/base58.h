@@ -272,8 +272,8 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 48, // Goldmsithscoin addresses start with L
-        SCRIPT_ADDRESS = 5,
+        PUBKEY_ADDRESS = 39, // Goldmsithscoin addresses start with "g"
+        SCRIPT_ADDRESS = 5,  // Script coin has to be 5
         PUBKEY_ADDRESS_TEST = 111,
         SCRIPT_ADDRESS_TEST = 196,
     };
